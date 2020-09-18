@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLOR-PICKER-RGB</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <form>
+        <div class="selector">
+            <div class="inputArea">
+                <label for="red">Red</label>
+                <input  class="slider" id="red" type="range" min="0" max="255" name="red" value="0">
+                <input class="value" type="text" disabled value="0">    
+            </div>
+            
+            <div class="inputArea">
+                <label for="green">Green</label>
+                <input class="slider "id="green" type="range" min="0" max="255" name="green" value="0">
+                <input class="value" type="text" disabled value="0">
+            </div>
+            
+            <div class="inputArea">
+                <label for="blue">Blue</label>
+                <input class="slider" id="blue" type="range" min="0" max="255" name="blue" value="0">
+                <input class="value" type="text" disabled value="0">
+            </div>
+    
+        </div>
+        
+        <div class="Cor" style="background-color: rgb(0,0,0);">
+
+        </div> 
+
+    </form>
+
+     
+    
+    <script src="./JS/script.js"></script>
+</body>
+</html>
